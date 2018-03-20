@@ -1,0 +1,6 @@
+main: com.naghtrion.trocamob.TrocaMob
+name: TrocaMob
+version: 1.0
+author: Naghtrion
+description: Plugin para trocar mobs ao nascerem.
+website: naghtrion.com

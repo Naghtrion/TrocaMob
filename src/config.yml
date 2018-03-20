@@ -1,0 +1,104 @@
+# --- TrocaMob ---
+# troque mobs antes de nascerem
+
+# Autor: Naghtrion
+
+# mundos onde a troca ira ocorrer
+mundos:
+  - 'world'
+
+
+# mobs que serão trocados
+mobs:
+  # - 'mob_que_iria_nascer:mob_que_vai_nascer'
+  - 'ZOMBIE:CREEPER'
+
+
+# efetuar a troca do mob caso o motivo que ele nasceu esteja na lista
+spawnreason:
+  - 'NATURAL'
+  - 'EGG'
+  - 'SPAWNER_EGG'
+
+
+# Entidades (Todas da 1.12.2, nao quer dizer que todas essas irão funcionar em versoes anteriores):
+#   BAT
+#   BLAZE
+#   CAVE_SPIDER
+#   CHICKEN
+#   COW
+#   CREEPER
+#   ELDER_GUARDIAN
+#   ENDER_CRYSTAL
+#   ENDER_DRAGON
+#   ENDERMAN
+#   ENDERMITE
+#   EVOKER
+#   EVOKER_FANGS
+#   GHAST
+#   GIANT
+#   GUARDIAN
+#   HORSE
+#   HUSK
+#   ILLUSIONER
+#   IRON_GOLEM
+#   LLAMA
+#   LLAMA_SPIT
+#   MAGMA_CUBE
+#   MULE
+#   MUSHROOM_COW
+#   OCELOT
+#   PARROT
+#   PIG
+#   PIG_ZOMBIE
+#   POLAR_BEAR
+#   RABBIT
+#   SHEEP
+#   SHULKER
+#   SILVERFISH
+#   SKELETON
+#   SKELETON_HORSE
+#   SLIME
+#   SNOWMAN
+#   SPIDER
+#   SQUID
+#   STRAY
+#   VEX
+#   VILLAGER
+#   VINDICATOR
+#   WITCH
+#   WITHER
+#   WITHER_SKELETON
+#   WOLF
+#   ZOMBIE
+#   ZOMBIE_HORSE
+#   ZOMBIE_VILLAGER
+
+# Spawn Reason (Todas da 1.12.2, nao quer dizer que todas essas irão funcionar em versoes anteriores):
+#   BREEDING            Quando um animal se reproduz para criar uma criança
+#   BUILD_IRONGOLEM	Quando um golem de ferro é gerado por ser construído
+#   BUILD_SNOWMAN	Quando um boneco de neve é ​​gerado por ser construído
+#   BUILD_WITHER	Quando um chefe de murchidão é gerado por ser construído
+#   CHUNK_GEN           Quando uma criatura gera devido à geração de partes
+#   CURED               Quando um aldeão é curado de infecção
+#   CUSTOM              Quando uma criatura é gerada por plugins
+#   DEFAULT             Quando uma entidade está faltando um SpawnReason
+#   DISPENSE_EGG	Quando uma criatura é gerada por um dispensador dispensando um ovo
+#   EGG         	Quando uma criatura se origina de um ovo
+#   ENDER_PEARL         Quando uma entidade é gerada como resultado do uso de pérolas
+#   INFECTION           Quando um zumbi infecta um aldeão
+#   JOCKEY              Quando uma entidade gera como um jóquei de outra entidade (principalmente jarrete de aranha)
+#   LIGHTNING           Quando uma criatura engendra por causa de um raio
+#   MOUNT               Quando uma entidade gera como um monte de outra entidade (principalmente jockeys de galinha)
+#   NATURAL             Quando algo se origina de meios naturais
+#   NETHER_PORTAL	Quando uma criatura é gerada pelo portal inferior
+#   OCELOT_BABY         Quando um ocelot tem um bebê gerado junto com eles
+#   REINFORCEMENTS	Quando uma entidade exige reforços
+#   SHOULDER_ENTITY	Quando uma entidade é gerada como resultado da entidade, está sendo perched em saltar ou ser danificado
+#   SILVERFISH_BLOCK	Quando um peixe prateado gera de um quarteirão
+#   SLIME_SPLIT         Quando um limo se separa
+#   SPAWNER             Quando uma criatura se origina de um gerador
+#   SPAWNER_EGG         Quando uma criatura se origina de um ovo de Spawner
+#   TRAP                Quando uma entidade gera como uma armadilha para os jogadores se aproximando
+#   VILLAGE_DEFENSE	Quando um golem de ferro é gerado para defender uma aldeia
+#   VILLAGE_INVASION	Quando um zumbi é gerado para invadir uma aldeia
